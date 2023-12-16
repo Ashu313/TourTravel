@@ -1,0 +1,14 @@
+.section_subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    font-size: 1.5rem;
+    font-weight: 400;
+    border-radius: 20px;
+    padding: 0.5rem;
+    color:white;
+    width:max-content;
+    cursor: default;
+    font-family:  var(--subtitle-font-name);
+}
