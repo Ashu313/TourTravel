@@ -14,10 +14,10 @@ const navlinks = [
     path: "/tours",
     display: "Tours",
   },
- /* {
+  {
     path: "/payment",
     display: "Phonepe",
-  },*/
+  },
 ];
 
 const authbutton = [

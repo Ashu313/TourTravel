@@ -19,9 +19,7 @@ export const register = async(req,res)=>{
             password: hash,
             photo: req.body.photo
         })
-        const customer = await createStripeCustomer(newUser);
-        console.log(customer);
-
+       
         await newUser.save()
 
         res.status(200).json({success:true, message:'successfully Created'})
